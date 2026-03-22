@@ -1,0 +1,10 @@
+# node_modules
+node_modules
+# node_modules for client and server
+**/node_modules
+# dist file for client and server
+**/dist
+
+# Others
+**/.env
+.idea
