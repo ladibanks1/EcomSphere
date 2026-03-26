@@ -6,5 +6,5 @@ node_modules
 **/dist
 
 # Others
-**/.env
+server/.env
 .idea

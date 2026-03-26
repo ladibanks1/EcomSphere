@@ -1,12 +1,13 @@
 {
-  "name": "EcomSphere",
+  "name": "ecomsphere",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "private": "true",
   "scripts": {
-    "start:client": "pnpm --filter client run dev",
-    "start:server": "pnpm --filter server run start:dev"
+    "start:client": "pnpm -F client run dev",
+    "start:server": "pnpm -F server run start:dev",
+    "migrate": "pnpm -F server run migrate"
   },
   "keywords": [],
   "author": "",
