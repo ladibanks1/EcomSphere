@@ -2,7 +2,6 @@ import {
   BadRequestException,
   Body,
   Controller,
-  Get,
   Post,
   UsePipes,
 } from '@nestjs/common';
@@ -19,19 +18,13 @@ export class AuthController {
     private otpService: OtpService,
   ) {}
 
-  @Get()
-  test() {
-    this.otpService.sendOtp('ladibanks09@gmail.com');
-    return 'hello';
-  }
-
   @Post('signin')
   async login(@Body() body: signInDto) {
     try {
       await this.authService.createUser(body);
       return {
         success: true,
-        message: 'User created successfully',
+        message: 'User created successfully;',
       };
     } catch (e: unknown) {
       const err = e as Error;

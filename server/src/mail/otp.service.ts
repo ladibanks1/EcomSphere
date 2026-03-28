@@ -1,7 +1,13 @@
-import { Inject, Injectable } from '@nestjs/common';
+import { BadRequestException, Inject, Injectable } from '@nestjs/common';
 import { randomBytes } from 'node:crypto';
 import { MailService } from './mail.service';
 import { CACHE_MANAGER, Cache } from '@nestjs/cache-manager';
+
+// Otp Data Type
+interface IOtp {
+  email: string;
+  expiresIn: number;
+}
 
 @Injectable()
 export class OtpService {
@@ -16,10 +22,16 @@ export class OtpService {
 
   async sendOtp(email: string) {
     const otp = this.generate_otp();
-    await this.cacheManager.set(email, otp, 5 * 60 * 1000);
+    const expiration_time = Date.now() * 10;
+    await this.cacheManager.set<IOtp>(
+      String(otp),
+      {
+        email,
+        expiresIn: expiration_time,
+      },
+      10 * 60 * 1000,
+    );
 
-    const oip = await this.cacheManager.get(email);
-    console.log(oip);
     this.mailService.sendMail(
       email,
       'Your EcomSphere OTP Code',
@@ -98,5 +110,16 @@ export class OtpService {
 </html>
 `,
     );
+  }
+
+  async verifyOtp(otp: string) {
+    const data = await this.cacheManager.get<IOtp>(otp);
+    if (data) {
+      if (data.expiresIn > Date.now())
+        throw new BadRequestException('Otp Expired');
+      return data.email;
+    } else {
+      throw new BadRequestException('Invalid Otp');
+    }
   }
 }
