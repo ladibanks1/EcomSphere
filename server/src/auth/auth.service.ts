@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { DB_PROVIDER } from '../utils/constants';
+import { DB } from '../constants';
 import { Pool } from 'pg';
 import { signInDto } from './dto/login.dto';
 import bcrypt from 'bcrypt';
@@ -10,7 +10,7 @@ interface ErrorWithCode extends Error {
 
 @Injectable()
 export class AuthService {
-  constructor(@Inject(DB_PROVIDER) private db: Pool) {}
+  constructor(@Inject(DB) private db: Pool) {}
 
   async createUser(details: signInDto) {
     try {

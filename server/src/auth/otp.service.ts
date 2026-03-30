@@ -1,36 +1,46 @@
-import { BadRequestException, Inject, Injectable } from '@nestjs/common';
-import { randomBytes } from 'node:crypto';
-import { MailService } from './mail.service';
-import { CACHE_MANAGER, Cache } from '@nestjs/cache-manager';
-
-// Otp Data Type
-interface IOtp {
-  email: string;
-  expiresIn: number;
-}
+import { Inject, Injectable } from '@nestjs/common';
+import { MailService } from '../mail.service';
+import {
+  MAX_OTP_ATTEMPTS,
+  OTP_ATTEMPTS_KEY,
+  OTP_EXPIRY,
+  OTP_KEY,
+  OTP_SEND_KEY,
+  OTP_WINDOW,
+  REDIS,
+} from '../constants';
+import { Redis } from 'ioredis';
+import bcrypt from 'bcrypt';
+import { randomInt } from 'crypto';
 
 @Injectable()
 export class OtpService {
   constructor(
     private readonly mailService: MailService,
-    @Inject(CACHE_MANAGER) private readonly cacheManager: Cache,
+    @Inject(REDIS) private readonly redis: Redis,
   ) {}
 
   generate_otp() {
-    return randomBytes(4).readUint32BE(0) % 1000000;
+    return randomInt(100000, 999999).toString();
   }
 
   async sendOtp(email: string) {
+    const send_count = await this.redis.incr(`${OTP_SEND_KEY}:${email}`);
+
+    if (send_count === 1) {
+      await this.redis.expire(`${OTP_SEND_KEY}:${email}`, OTP_WINDOW);
+    }
+
+    if (send_count > MAX_OTP_ATTEMPTS) {
+      const ttl = await this.redis.ttl(`${OTP_SEND_KEY}:${email}`);
+      throw new Error(
+        `Too many OTP sent attempts. Please try again after ${Math.ceil(ttl / 60)} minutes.`,
+      );
+    }
+
     const otp = this.generate_otp();
-    const expiration_time = Date.now() * 10;
-    await this.cacheManager.set<IOtp>(
-      String(otp),
-      {
-        email,
-        expiresIn: expiration_time,
-      },
-      10 * 60 * 1000,
-    );
+    const hashedOtp = await bcrypt.hash(otp, 10);
+    await this.redis.set(`${OTP_KEY}:${email}`, hashedOtp, 'EX', OTP_EXPIRY);
 
     this.mailService.sendMail(
       email,
@@ -109,16 +119,34 @@ export class OtpService {
 </html>
 `,
     );
+    return { message: 'OTP sent successfully' };
   }
 
-  async verifyOtp(otp: string) {
-    const data = await this.cacheManager.get<IOtp>(otp);
-    if (data) {
-      if (data.expiresIn > Date.now())
-        throw new BadRequestException('Otp Expired');
-      return data.email;
-    } else {
-      throw new BadRequestException('Invalid Otp');
+  async verifyOtp({ email, otp }: { email: string; otp: string }) {
+    const attempts = await this.redis.incr(`${OTP_ATTEMPTS_KEY}:${email}`);
+
+    if (attempts === 1)
+      await this.redis.expire(`${OTP_ATTEMPTS_KEY}:${email}`, OTP_EXPIRY);
+
+    if (attempts > MAX_OTP_ATTEMPTS) {
+      await this.redis.del(
+        `${OTP_ATTEMPTS_KEY}:${email}`,
+        `${OTP_KEY}:${email}`,
+      );
+      throw new Error(`Too many OTP attempts. Request a new otp`);
     }
+
+    const hashedOtp = await this.redis.get(`${OTP_KEY}:${email}`);
+
+    if (!hashedOtp) throw new Error('Invalid or Expired OTP');
+
+    const isMatch = await bcrypt.compare(otp, hashedOtp);
+
+    if (!isMatch) throw new Error('Invalid OTP');
+
+    await this.redis.del(`${OTP_KEY}:${email}`);
+    await this.redis.del(`${OTP_ATTEMPTS_KEY}:${email}`);
+
+    return { message: 'OTP verified successfully' };
   }
 }

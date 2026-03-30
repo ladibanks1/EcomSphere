@@ -1,22 +1,10 @@
 import { Module } from '@nestjs/common';
-import { Pool } from 'pg';
-import { DB_PROVIDER } from '../utils/constants';
-import { ConfigService } from '@nestjs/config';
+import { DB, REDIS } from '../constants';
+import { PG_PROVIDER } from './pg.provider';
+import { REDIS_PROVIDER } from './redis.provider';
 
 @Module({
-  providers: [
-    {
-      provide: DB_PROVIDER,
-      useFactory: (configService: ConfigService) => {
-        const pool = new Pool({
-          connectionString: configService.get<string>('DATABASE_URL'),
-        });
-        console.log('Database connection started');
-        return pool;
-      },
-      inject: [ConfigService],
-    },
-  ],
-  exports: [DB_PROVIDER],
+  providers: [PG_PROVIDER, REDIS_PROVIDER],
+  exports: [DB, REDIS],
 })
 export class DbModule {}

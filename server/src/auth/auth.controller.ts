@@ -6,9 +6,9 @@ import {
   UsePipes,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
-import { ZodValidationPipe } from '../utils/zodPipe.pipe';
+import { ZodValidationPipe } from '../zodPipe.pipe';
 import { type signInDto, signInSchema } from './dto/login.dto';
-import { OtpService } from '../mail/otp.service';
+import { OtpService } from './otp.service';
 
 @Controller('auth')
 @UsePipes(new ZodValidationPipe(signInSchema))
