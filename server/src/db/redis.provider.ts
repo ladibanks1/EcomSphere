@@ -1,5 +1,5 @@
 import { Provider } from '@nestjs/common';
-import { REDIS } from '../constants';
+import { REDIS } from '../utils/constants';
 import { ConfigService } from '@nestjs/config';
 import Redis from 'ioredis';
 

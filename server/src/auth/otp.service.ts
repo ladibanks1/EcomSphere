@@ -1,6 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { MailService } from '../mail.service';
 import {
+  DB,
   MAX_OTP_ATTEMPTS,
   OTP_ATTEMPTS_KEY,
   OTP_EXPIRY,
@@ -8,23 +9,34 @@ import {
   OTP_SEND_KEY,
   OTP_WINDOW,
   REDIS,
-} from '../constants';
+} from '../utils/constants';
 import { Redis } from 'ioredis';
 import bcrypt from 'bcrypt';
 import { randomInt } from 'crypto';
+import { Pool } from 'pg';
 
 @Injectable()
 export class OtpService {
   constructor(
     private readonly mailService: MailService,
     @Inject(REDIS) private readonly redis: Redis,
+    @Inject(DB) private readonly db: Pool,
   ) {}
 
-  generate_otp() {
+  private generate_otp() {
     return randomInt(100000, 999999).toString();
   }
 
   async sendOtp(email: string) {
+    const checkIfEmailExists = await this.db.query(
+      'SELECT * FROM users WHERE email = $1',
+      [email],
+    );
+    console.log(checkIfEmailExists);
+    if (checkIfEmailExists.rowCount === 0) {
+      throw new Error('No user found with this email');
+    }
+
     const send_count = await this.redis.incr(`${OTP_SEND_KEY}:${email}`);
 
     if (send_count === 1) {
@@ -146,6 +158,11 @@ export class OtpService {
 
     await this.redis.del(`${OTP_KEY}:${email}`);
     await this.redis.del(`${OTP_ATTEMPTS_KEY}:${email}`);
+
+    await this.db.query(
+      'UPDATE users SET is_verified = true WHERE email = $1',
+      [email],
+    );
 
     return { message: 'OTP verified successfully' };
   }

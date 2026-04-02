@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DB, REDIS } from '../constants';
+import { DB, REDIS } from '../utils/constants';
 import { PG_PROVIDER } from './pg.provider';
 import { REDIS_PROVIDER } from './redis.provider';
 

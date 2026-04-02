@@ -1,7 +1,7 @@
 import { Provider } from '@nestjs/common';
 import { Pool } from 'pg';
 import { ConfigService } from '@nestjs/config';
-import { DB } from '../constants';
+import { DB } from '../utils/constants';
 
 export const PG_PROVIDER: Provider = {
   provide: DB,

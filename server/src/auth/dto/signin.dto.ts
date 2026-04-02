@@ -6,7 +6,7 @@ export const signInSchema = z
     password: z
       .string('Password must be provided')
       .min(8, 'Password must be at least 8 characters long'),
-    role: z.enum(['admin', 'user'], 'Role must be either admin or user'),
+    role: z.enum(['seller', 'user'], 'Role must be either seller or user'),
   })
   .strip();
 

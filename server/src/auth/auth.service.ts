@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { DB } from '../constants';
+import { DB } from '../utils/constants';
 import { Pool } from 'pg';
-import { signInDto } from './dto/login.dto';
+import { signInDto } from './dto/signin.dto';
 import bcrypt from 'bcrypt';
 
 interface ErrorWithCode extends Error {
