@@ -14,6 +14,7 @@ import { Redis } from 'ioredis';
 import bcrypt from 'bcrypt';
 import { randomInt } from 'crypto';
 import { Pool } from 'pg';
+import { getOne } from '../utils/db';
 
 @Injectable()
 export class OtpService {
@@ -29,12 +30,11 @@ export class OtpService {
 
   async sendOtp(email: string) {
     const checkIfEmailExists = await this.db.query(
-      'SELECT * FROM users WHERE email = $1',
+      'SELECT email FROM users WHERE email = $1',
       [email],
     );
-    console.log(checkIfEmailExists);
-    if (checkIfEmailExists.rowCount === 0) {
-      throw new Error('No user found with this email');
+    if (!getOne(checkIfEmailExists)) {
+      throw new Error('Invalid email');
     }
 
     const send_count = await this.redis.incr(`${OTP_SEND_KEY}:${email}`);

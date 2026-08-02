@@ -1,8 +1,10 @@
 import { z } from 'zod';
+import { createZodDto } from 'nestjs-zod';
 
-export const sendOtpSchema = z.object({ email: z.email() });
+export const otpSchema = z.object({
+  email: z.email(),
+  otp: z.string().length(6),
+});
 
-export type sendOtpDto = z.infer<typeof sendOtpSchema>;
-
-export const verifyOtpSchema = z.object({ email: z.email(), otp: z.string() });
-export type verifyOtpDto = z.infer<typeof verifyOtpSchema>;
+export class sendOtpDto extends createZodDto(otpSchema.omit({ otp: true })) {}
+export class verifyOtpDto extends createZodDto(otpSchema) {}

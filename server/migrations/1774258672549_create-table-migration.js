@@ -9,6 +9,8 @@ export const shorthands = undefined;
  * @returns {Promise<void> | void}
  */
 export const up = (pgm) => {
+  pgm.createExtension('pgcrypto', { ifNotExists: true });
+
   pgm.createTable('users', {
     id: {
       type: 'uuid',
@@ -26,7 +28,8 @@ export const up = (pgm) => {
       notNull: true,
     },
     role: {
-      type: 'varchar(255)',
+      type: 'varchar(50)',
+      check: "role IN ('user', 'admin')",
       notNull: true,
     },
     is_verified: {
@@ -34,13 +37,18 @@ export const up = (pgm) => {
       notNull: true,
       default: false,
     },
+    is_deleted: {
+      type: 'boolean',
+      notNull: true,
+      default: false,
+    },
     created_at: {
-      type: 'timestamp',
+      type: 'timestamptz',
       default: pgm.func('current_timestamp'),
       notNull: true,
     },
     updated_at: {
-      type: 'timestamp',
+      type: 'timestamptz',
       default: pgm.func('current_timestamp'),
       notNull: true,
     },
