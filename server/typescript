@@ -1,0 +1,1310 @@
+Script started on 2026-08-06 12:08:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="228" LINES="16"]
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere/server[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere/server[00m$ sudo apt update [K[K[K[Ksudo apt upda[8Pclearsudo systemctl restart systemd-resolved[3Pnano /etc/systemd/resolved.conf[14Presolvectl status[2Pcat /etc/resolv.conf[4Psudo apt upgrade[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpnpm s[Kstart
+[?2004l
+> server@0.0.1 start /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> nest start
+
+^C^C[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+Terminated
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere/server[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere/server[00m$ cd ..
+[?2004l[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ [32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +57ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 47937  - [39m08/06/2026, 12:09:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +20ms[39m
+Server running on port 8080
+^C[?2004l[?2004h[?2004l
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ cd ..pnpm start[5Pcd ..pnpm start
+[?2004l[41m[30m ERR_PNPM_NO_SCRIPT_OR_SERVER [39m[49m [31mMissing script start or file server.js[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ clde[K[Kear
+[?2004l[H[2J[3J[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ clearpnpm start[K[K[K[K[Kfund
+[?2004l[41m[30m ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL [39m[49m [31mCommand "fund" not found[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm fund[K[K[K[Kls
+[?2004l[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm lsfund[K[K[K[Kmigrate down --all
+[?2004l
+> ecomsphere@1.0.0 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run migrate down --all
+
+
+> server@0.0.1 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> node-pg-migrate down --all
+
+◇ injected env (6) from .env [2m// tip: ◈ encrypted .env [www.dotenvx.com][0m
+(node:49182) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/migrations/1774258672549_create-table-migration.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Error: Definitions of migrations 1785498619496_change-token-type have been deleted.
+    at getMigrationsToRun (file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/node-pg-migrate@8.0.4_@types+pg@8.20.0_pg@8.22.0/node_modules/[4mnode-pg-migrate[24m/dist/bundle/index.js:3700:13)
+    at runner (file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/node-pg-migrate@8.0.4_@types+pg@8.20.0_pg@8.22.0/node_modules/[4mnode-pg-migrate[24m/dist/bundle/index.js:3788:19)
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mserver@0.0.1 migrate: `node-pg-migrate down --all`[39m
+[31mExit status 1[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm migrate down --allls[Kfund[4Pclearpnpm start[5Pcd ..pnpm start[5Pcd ..pnpm start[5Pclearpnpm fund[2Plsmigrate down --all[Kpnpm migrate down --all[K[K[K[K[K[K[K[K[K[Kclear --all
+[?2004l
+> ecomsphere@1.0.0 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run migrate clear --all
+
+
+> server@0.0.1 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> node-pg-migrate clear --all
+
+◇ injected env (6) from .env [2m// tip: ⌘ multiple files { path: ['.env.local', '.env'] }[0m
+Invalid Action: Must be [up|down|create|redo].
+Usage: node-pg-migrate.js [up|down|create|redo] [migrationName] [options]
+
+Options:
+  -d, --database-url-var           Name of env variable where is set the
+                                   databaseUrl[string] [default: "DATABASE_URL"]
+  -m, --migrations-dir             The directory name or glob pattern containing
+                                   your migration files (resolved from cwd()).
+                                   When using glob pattern, "use-glob" must be
+                                   used as well [string] [default: "migrations"]
+      --use-glob                   Use glob to find migration files. This will
+                                   use "migrations-dir" _and_ "ignore-pattern"
+                                   to glob-search for migration files.
+                                                      [boolean] [default: false]
+  -t, --migrations-table           The table storing which migrations have been
+                                   run        [string] [default: "pgmigrations"]
+  -s, --schema                     The schema on which migration will be run
+                                   (defaults to `public`)
+                                                     [array] [default: "public"]
+      --create-schema              Creates the configured schema if it doesn't
+                                   exist              [boolean] [default: false]
+      --migrations-schema          The schema storing table which migrations
+                                   have been run
+                                            [string] [default: Same as "schema"]
+      --create-migrations-schema   Creates the configured migration schema if it
+                                   doesn't exist      [boolean] [default: false]
+      --check-order                Check order of migrations before running them
+                                                       [boolean] [default: true]
+      --verbose                    Print debug messages - all DB statements run
+                                                       [boolean] [default: true]
+      --ignore-pattern             Regex or glob pattern for migration files to
+                                   be ignored. When using glob pattern,
+                                   "use-glob" must be used as well
+                                                      [string] [default: "\..*"]
+      --decamelize                 Runs decamelize on table/columns/etc names
+                                                      [boolean] [default: false]
+      --config-value               Name of config section with db options
+                                                        [string] [default: "db"]
+  -f, --config-file                Name of config file with db options  [string]
+  -j, --migration-file-language    Language of the migration file (Only valid
+                                   with the create action)
+  [string] [choices: "js", "ts", "sql"] [default: last one used or "js" if there
+                                                            is no migration yet]
+      --migration-filename-format  Prefix type of migration filename (Only valid
+                                   with the create action)
+                   [string] [choices: "timestamp", "utc"] [default: "timestamp"]
+      --template-file-name         Path to template for creating migrations
+                                                                        [string]
+      --tsconfig                   Path to tsconfig.json file           [string]
+      --ts-node                    Use ts-node for typescript files
+                                                       [boolean] [default: true]
+      --tsx                        Use tsx for typescript files
+                                                      [boolean] [default: false]
+      --envPath                    Path to the .env file that should be used for
+                                   configuration                        [string]
+      --dry-run                    Prints the SQL but doesn't run it
+                                                      [boolean] [default: false]
+      --fake                       Marks migrations as run
+                                                      [boolean] [default: false]
+      --single-transaction         Combines all pending migrations into a single
+                                   database transaction so that if any migration
+                                   fails, all will be rolled back
+                                                       [boolean] [default: true]
+      --lock                       When false, disables locking mechanism and
+                                   checks              [boolean] [default: true]
+      --lock-value                 The value to use for the lock
+                                            [number] [default: 7241865325823964]
+      --reject-unauthorized        Sets rejectUnauthorized SSL option
+                                                      [boolean] [default: false]
+      --timestamp                  Treats number argument to up/down migration
+                                   as timestamp       [boolean] [default: false]
+  -i, --version                    Show version number                 [boolean]
+      --help                       Show help                           [boolean]
+/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mserver@0.0.1 migrate: `node-pg-migrate clear --all`[39m
+[31mExit status 1[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm migrate clear --all[K[K[K[K[K[K[K[K[K[K[Kdrop
+[?2004l
+> ecomsphere@1.0.0 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run migrate drop
+
+
+> server@0.0.1 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> node-pg-migrate drop
+
+◇ injected env (6) from .env [2m// tip: ⌁ auth for agents [www.vestauth.com][0m
+Invalid Action: Must be [up|down|create|redo].
+Usage: node-pg-migrate.js [up|down|create|redo] [migrationName] [options]
+
+Options:
+  -d, --database-url-var           Name of env variable where is set the
+                                   databaseUrl[string] [default: "DATABASE_URL"]
+  -m, --migrations-dir             The directory name or glob pattern containing
+                                   your migration files (resolved from cwd()).
+                                   When using glob pattern, "use-glob" must be
+                                   used as well [string] [default: "migrations"]
+      --use-glob                   Use glob to find migration files. This will
+                                   use "migrations-dir" _and_ "ignore-pattern"
+                                   to glob-search for migration files.
+                                                      [boolean] [default: false]
+  -t, --migrations-table           The table storing which migrations have been
+                                   run        [string] [default: "pgmigrations"]
+  -s, --schema                     The schema on which migration will be run
+                                   (defaults to `public`)
+                                                     [array] [default: "public"]
+      --create-schema              Creates the configured schema if it doesn't
+                                   exist              [boolean] [default: false]
+      --migrations-schema          The schema storing table which migrations
+                                   have been run
+                                            [string] [default: Same as "schema"]
+      --create-migrations-schema   Creates the configured migration schema if it
+                                   doesn't exist      [boolean] [default: false]
+      --check-order                Check order of migrations before running them
+                                                       [boolean] [default: true]
+      --verbose                    Print debug messages - all DB statements run
+                                                       [boolean] [default: true]
+      --ignore-pattern             Regex or glob pattern for migration files to
+                                   be ignored. When using glob pattern,
+                                   "use-glob" must be used as well
+                                                      [string] [default: "\..*"]
+      --decamelize                 Runs decamelize on table/columns/etc names
+                                                      [boolean] [default: false]
+      --config-value               Name of config section with db options
+                                                        [string] [default: "db"]
+  -f, --config-file                Name of config file with db options  [string]
+  -j, --migration-file-language    Language of the migration file (Only valid
+                                   with the create action)
+  [string] [choices: "js", "ts", "sql"] [default: last one used or "js" if there
+                                                            is no migration yet]
+      --migration-filename-format  Prefix type of migration filename (Only valid
+                                   with the create action)
+                   [string] [choices: "timestamp", "utc"] [default: "timestamp"]
+      --template-file-name         Path to template for creating migrations
+                                                                        [string]
+      --tsconfig                   Path to tsconfig.json file           [string]
+      --ts-node                    Use ts-node for typescript files
+                                                       [boolean] [default: true]
+      --tsx                        Use tsx for typescript files
+                                                      [boolean] [default: false]
+      --envPath                    Path to the .env file that should be used for
+                                   configuration                        [string]
+      --dry-run                    Prints the SQL but doesn't run it
+                                                      [boolean] [default: false]
+      --fake                       Marks migrations as run
+                                                      [boolean] [default: false]
+      --single-transaction         Combines all pending migrations into a single
+                                   database transaction so that if any migration
+                                   fails, all will be rolled back
+                                                       [boolean] [default: true]
+      --lock                       When false, disables locking mechanism and
+                                   checks              [boolean] [default: true]
+      --lock-value                 The value to use for the lock
+                                            [number] [default: 7241865325823964]
+      --reject-unauthorized        Sets rejectUnauthorized SSL option
+                                                      [boolean] [default: false]
+      --timestamp                  Treats number argument to up/down migration
+                                   as timestamp       [boolean] [default: false]
+  -i, --version                    Show version number                 [boolean]
+      --help                       Show help                           [boolean]
+/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mserver@0.0.1 migrate: `node-pg-migrate drop`[39m
+[31mExit status 1[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm migrate dropclear --all[7Pdrop[K[K[K[Kupp [K[K -all[K[K[K-all
+[?2004l
+> ecomsphere@1.0.0 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run migrate up --all
+
+
+> server@0.0.1 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> node-pg-migrate up --all
+
+◇ injected env (6) from .env [2m// tip: ⌘ suppress logs { quiet: true }[0m
+(node:60339) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/migrations/1774258672549_create-table-migration.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+> Migrating files:
+> - 1774258672549_create-table-migration
+> - 1785495277809_create-refreshToken-table
+### MIGRATION 1774258672549_create-table-migration (UP) ###
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+CREATE TABLE "users" (
+  "id" uuid DEFAULT gen_random_uuid() PRIMARY KEY NOT NULL,
+  "email" varchar(255) UNIQUE NOT NULL,
+  "password" varchar(255) NOT NULL,
+  "role" varchar(50) NOT NULL CHECK (role IN ('user', 'admin')),
+  "is_verified" boolean DEFAULT false NOT NULL,
+  "is_deleted" boolean DEFAULT false NOT NULL,
+  "created_at" timestamptz DEFAULT current_timestamp NOT NULL,
+  "updated_at" timestamptz DEFAULT current_timestamp NOT NULL
+);
+INSERT INTO "public"."pgmigrations" (name, run_on) VALUES ('1774258672549_create-table-migration', NOW());
+
+
+### MIGRATION 1785495277809_create-refreshToken-table (UP) ###
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+CREATE TABLE "refresh_tokens" (
+  "id" uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  "user_id" uuid REFERENCES "users" ON DELETE SET RESTRICT,
+  "token" varchar(225) UNIQUE NOT NULL,
+  "expires_at" timestamptz NOT NULL,
+  "revoked" boolean DEFAULT false NOT NULL
+);
+INSERT INTO "public"."pgmigrations" (name, run_on) VALUES ('1785495277809_create-refreshToken-table', NOW());
+
+
+Error executing:
+CREATE TABLE "refresh_tokens" (
+  "id" uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  "user_id" uuid REFERENCES "users" ON DELETE SET RESTRICT,
+                                                  ^^^^
+  "token" varchar(225) UNIQUE NOT NULL,
+  "expires_at" timestamptz NOT NULL,
+  "revoked" boolean DEFAULT false NOT NULL
+);
+
+syntax error at or near "RESTRICT"
+
+> Rolling back attempted migration ...
+error: syntax error at or near "RESTRICT"
+    at /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/pg@8.22.0/node_modules/[4mpg[24m/lib/client.js:652:17
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)[39m
+    at async Object.query (file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/node-pg-migrate@8.0.4_@types+pg@8.20.0_pg@8.22.0/node_modules/[4mnode-pg-migrate[24m/dist/bundle/index.js:3499:14)
+    at async runner (file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/node-pg-migrate@8.0.4_@types+pg@8.20.0_pg@8.22.0/node_modules/[4mnode-pg-migrate[24m/dist/bundle/index.js:3806:9) {
+  length: [33m98[39m,
+  severity: [32m'ERROR'[39m,
+  code: [32m'42601'[39m,
+  detail: [90mundefined[39m,
+  hint: [90mundefined[39m,
+  position: [32m'134'[39m,
+  internalPosition: [90mundefined[39m,
+  internalQuery: [90mundefined[39m,
+  where: [90mundefined[39m,
+  schema: [90mundefined[39m,
+  table: [90mundefined[39m,
+  column: [90mundefined[39m,
+  dataType: [90mundefined[39m,
+  constraint: [90mundefined[39m,
+  file: [32m'scan.l'[39m,
+  line: [32m'1244'[39m,
+  routine: [32m'scanner_yyerror'[39m
+}
+/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mserver@0.0.1 migrate: `node-pg-migrate up --all`[39m
+[31mExit status 1[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed with exit code 1.[39m
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm migrate up --all[4Pdropup --all
+[?2004l
+> ecomsphere@1.0.0 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run migrate up --all
+
+
+> server@0.0.1 migrate /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> node-pg-migrate up --all
+
+◇ injected env (6) from .env [2m// tip: ◈ secrets for agents [www.dotenvx.com][0m
+(node:63144) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/migrations/1774258672549_create-table-migration.js is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+> Migrating files:
+> - 1774258672549_create-table-migration
+> - 1785495277809_create-refreshToken-table
+### MIGRATION 1774258672549_create-table-migration (UP) ###
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+CREATE TABLE "users" (
+  "id" uuid DEFAULT gen_random_uuid() PRIMARY KEY NOT NULL,
+  "email" varchar(255) UNIQUE NOT NULL,
+  "password" varchar(255) NOT NULL,
+  "role" varchar(50) NOT NULL CHECK (role IN ('user', 'admin')),
+  "is_verified" boolean DEFAULT false NOT NULL,
+  "is_deleted" boolean DEFAULT false NOT NULL,
+  "created_at" timestamptz DEFAULT current_timestamp NOT NULL,
+  "updated_at" timestamptz DEFAULT current_timestamp NOT NULL
+);
+INSERT INTO "public"."pgmigrations" (name, run_on) VALUES ('1774258672549_create-table-migration', NOW());
+
+
+### MIGRATION 1785495277809_create-refreshToken-table (UP) ###
+CREATE EXTENSION IF NOT EXISTS "pgcrypto";
+CREATE TABLE "refresh_tokens" (
+  "id" uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  "user_id" uuid REFERENCES "users" ON DELETE RESTRICT,
+  "token" varchar(225) UNIQUE NOT NULL,
+  "expires_at" timestamptz NOT NULL,
+  "revoked" boolean DEFAULT false NOT NULL
+);
+INSERT INTO "public"."pgmigrations" (name, run_on) VALUES ('1785495277809_create-refreshToken-table', NOW());
+
+
+Migrations complete!
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ pnpm migrate up --all[4Pdrop [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpnpm start:sta[K[Kserev[K[K[K[K[K[Kserver
+[?2004l
+> ecomsphere@1.0.0 start:server /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run start:dev
+
+
+> server@0.0.1 start:dev /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> nest start --watch
+
+[2J[3J[H[[90m5:06:35 PM[0m] Starting compilation in watch mode...
+
+[[90m5:06:39 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +54ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+[31m[Nest] 70397  - [39m08/06/2026, 5:06:41 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::8080[39m[38;5;3m +18ms[39m
+node:net:1948
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::8080
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1948:16)[39m
+[90m    at listenInCluster (node:net:2005:12)[39m
+[90m    at Server.listen (node:net:2110:7)[39m
+    at ExpressAdapter.listen (/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/@nestjs+platform-express@11.1.28_@nestjs+common@11.1.28_reflect-metadata@0.2.2_rxjs@7.8.2__@nestjs+core@11.1.28/node_modules/[4m@nestjs/platform-express[24m/adapters/express-adapter.js:115:32)
+    at /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.28_@nestjs+common@11.1.28_reflect-metadata@0.2.2_rxjs@7.8.2__@nestjs+_154d0e7219cbe1cb668b4eec23e98a99/node_modules/[4m@nestjs/core[24m/nest-application.js:190:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/node_modules/[4m.pnpm[24m/@nestjs+core@11.1.28_@nestjs+common@11.1.28_reflect-metadata@0.2.2_rxjs@7.8.2__@nestjs+_154d0e7219cbe1cb668b4eec23e98a99/node_modules/[4m@nestjs/core[24m/nest-application.js:180:16)
+    at async bootstrap [90m(/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/[39msrc/main.ts:27:3[90m)[39m {
+  code: [32m'EADDRINUSE'[39m,
+  errno: [33m-98[39m,
+  syscall: [32m'listen'[39m,
+  address: [32m'::'[39m,
+  port: [33m8080[39m
+}
+
+Node.js v24.14.0
+^C/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server:
+[41m[30m ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL [39m[49m [31mserver@0.0.1 start:dev: `nest start --watch`[39m
+[31mCommand failed with signal "SIGINT"[39m
+[41m[30m ELIFECYCLE [39m[49m [31mCommand failed.[39m
+
+[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ Terminated
+^[[A^[[A^[[B^[[B^[[B                    clear
+clear
+[?2004l[H[2J[3J[?2004h]0;ola@ola-HP-EliteBook-840-G6: ~/Documents/Coding_Workspace/TypeScript/EcomSphere[01;32mola@ola-HP-EliteBook-840-G6[00m:[01;34m~/Documents/Coding_Workspace/TypeScript/EcomSphere[00m$ clearpnpm start:servermigrate up --all[4Pstart:server
+[?2004l
+> ecomsphere@1.0.0 start:server /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere
+> pnpm -F server run start:dev
+
+
+> server@0.0.1 start:dev /home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server
+> nest start --watch
+
+[2J[3J[H[[90m5:57:32 PM[0m] Starting compilation in watch mode...
+
+[[90m5:57:36 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +25ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +40ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 119450  - [39m08/06/2026, 5:57:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:12:02 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:12:03 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +71ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +83ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 148471  - [39m08/06/2026, 6:12:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:15:03 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:15:04 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +92ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +55ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 154103  - [39m08/06/2026, 6:15:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+{
+  formErrors: [],
+  fieldErrors: { role: [ [32m'Role must be either seller or user'[39m ] }
+}
+{"error":"Validation Failed","level":"error","message":"Request error","method":"POST","responseCode":201,"responseTime":"7ms","service":"user-service","url":"/auth/signin","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"130ms","service":"user-service","url":"/auth/signin","user":"oladipupobankole24@gmail.com"}
+{"error":"User not verified","level":"error","message":"Request error","method":"POST","responseCode":201,"responseTime":"152ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"error":"User with this email already exists","level":"error","message":"Request error","method":"POST","responseCode":201,"responseTime":"107ms","service":"user-service","url":"/auth/signin","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":200,"responseTime":"132ms","service":"user-service","url":"/auth/send-otp","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":200,"responseTime":"153ms","service":"user-service","url":"/auth/verify-otp","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"136ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"error":"Invalid credentials","level":"error","message":"Request error","method":"POST","responseCode":201,"responseTime":"141ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"128ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"133ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"19ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"151ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"124ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"114ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"14ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"14ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"30ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+[2J[3J[H[[90m6:29:03 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:29:03 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +43ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +57ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 180637  - [39m08/06/2026, 6:29:06 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:31:08 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:31:08 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +58ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +64ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +11ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 184530  - [39m08/06/2026, 6:31:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+{"error":"User with this email already exists","level":"error","message":"Request error","method":"POST","responseCode":201,"responseTime":"156ms","service":"user-service","url":"/auth/signin","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":200,"responseTime":"144ms","service":"user-service","url":"/auth/send-otp","user":"oladipupobankole24@gmail.com"}
+{"error":"Invalid OTP","level":"error","message":"Request error","method":"POST","responseCode":200,"responseTime":"113ms","service":"user-service","url":"/auth/verify-otp","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"POST","responseCode":201,"responseTime":"118ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"31ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+[2J[3J[H[[90m6:33:08 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:33:09 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +34ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 188344  - [39m08/06/2026, 6:33:11 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+{"level":"info","message":"Request completed","method":"POST","responseCode":200,"responseTime":"184ms","service":"user-service","url":"/auth/login","user":"oladipupobankole24@gmail.com"}
+{"level":"info","message":"Request completed","method":"GET","responseCode":200,"responseTime":"26ms","service":"user-service","url":"/auth/refresh","user":"::1"}
+[2J[3J[H[[90m6:35:26 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:35:26 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +45ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +68ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 192605  - [39m08/06/2026, 6:35:29 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:35:40 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:35:40 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +60ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +66ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 193077  - [39m08/06/2026, 6:35:43 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:36:16 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:36:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +10ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +83ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194331  - [39m08/06/2026, 6:36:19 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:36:20 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:36:20 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +46ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +54ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 194444  - [39m08/06/2026, 6:36:22 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+{"error":"Invalid or Expired OTP","level":"error","message":"Request error","method":"POST","responseCode":200,"responseTime":"5ms","service":"user-service","url":"/auth/verify-otp","user":"oladipupobankole24@gmail.com"}
+[2J[3J[H[[90m6:38:49 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:38:50 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +58ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +75ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 199109  - [39m08/06/2026, 6:38:52 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:39:24 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth/auth.controller.ts[0m:[93m121[0m:[93m27[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m121[0m     status: HttpStatus.OK=,
+[7m   [0m [91m                          ~[0m
+
+[[90m6:39:25 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m6:39:25 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:39:26 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +91ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +50ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200228  - [39m08/06/2026, 6:39:27 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:39:33 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth/auth.controller.ts[0m:[93m118[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m118[0m     summary: 'Verify sent OTP',
+[7m   [0m [91m           ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m118[0m:[93m32[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m118[0m     summary: 'Verify sent OTP',
+[7m   [0m [91m                               [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m119[0m:[93m3[0m - [91merror[0m[90m TS1135: [0mArgument expression expected.
+
+[7m119[0m   })
+[7m   [0m [91m  ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m119[0m:[93m4[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m119[0m   })
+[7m   [0m [91m   ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m124[0m:[93m8[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m124[0m   async verifyOtp(@Body() body: verifyOtpDto) {
+[7m   [0m [91m       [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m124[0m:[93m26[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m124[0m   async verifyOtp(@Body() body: verifyOtpDto) {
+[7m   [0m [91m                         [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m124[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m124[0m   async verifyOtp(@Body() body: verifyOtpDto) {
+[7m   [0m [91m                          ~~~~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m124[0m:[93m31[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m124[0m   async verifyOtp(@Body() body: verifyOtpDto) {
+[7m   [0m [91m                              ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m124[0m:[93m47[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m124[0m   async verifyOtp(@Body() body: verifyOtpDto) {
+[7m   [0m [91m                                              ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m145[0m:[93m8[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m145[0m   async refreshToken(
+[7m   [0m [91m       [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m146[0m:[93m11[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m146[0m     @Req() req: Request,
+[7m   [0m [91m          [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m146[0m:[93m12[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m     @Req() req: Request,
+[7m   [0m [91m           ~~~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m146[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m146[0m     @Req() req: Request,
+[7m   [0m [91m              ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m147[0m:[93m32[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m147[0m     @Res({ passthrough: true }) res: Response,
+[7m   [0m [91m                               [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m147[0m:[93m33[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m147[0m     @Res({ passthrough: true }) res: Response,
+[7m   [0m [91m                                ~~~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m147[0m:[93m36[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m147[0m     @Res({ passthrough: true }) res: Response,
+[7m   [0m [91m                                   ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m148[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m148[0m   ) {
+[7m   [0m [91m    ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m187[0m:[93m9[0m - [91merror[0m[90m TS1146: [0mDeclaration expected.
+
+[7m187[0m   @Get()
+[7m   [0m [91m        [0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m188[0m:[93m15[0m - [91merror[0m[90m TS1005: [0m';' expected.
+
+[7m188[0m   dashboard() {
+[7m   [0m [91m              ~[0m
+
+[96msrc/auth/auth.controller.ts[0m:[93m191[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m191[0m }
+[7m   [0m [91m~[0m
+
+[[90m6:39:33 PM[0m] Found 20 errors. Watching for file changes.
+
+/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/dist/auth/auth.controller.js:140
+verifyOtp(, body, otp_dto_1.verifyOtpDto);
+          ^
+
+SyntaxError: Unexpected token ','
+[90m    at wrapSafe (node:internal/modules/cjs/loader:1743:18)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1786:20)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1943:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1533:32)[39m
+[90m    at Module._load (node:internal/modules/cjs/loader:1335:12)[39m
+[90m    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)[39m
+[90m    at Module.require (node:internal/modules/cjs/loader:1556:12)[39m
+[90m    at require (node:internal/modules/helpers:152:16)[39m
+    at Object.<anonymous> [90m(/home/ola/Documents/Coding_Workspace/TypeScript/EcomSphere/server/[39msrc/auth/auth.module.ts:3:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1812:14)[39m
+
+Node.js v24.14.0
+[2J[3J[H[[90m6:39:34 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:39:35 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +59ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +68ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 200529  - [39m08/06/2026, 6:39:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:41:30 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:41:31 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +88ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +61ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204170  - [39m08/06/2026, 6:41:33 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:41:43 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:41:43 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +79ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204573  - [39m08/06/2026, 6:41:45 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:41:51 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:41:52 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +62ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +97ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +10ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 204856  - [39m08/06/2026, 6:41:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:42:00 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:42:01 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +58ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +114ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +10ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 205153  - [39m08/06/2026, 6:42:03 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:42:05 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:42:05 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +55ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +72ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +11ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +21ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205315  - [39m08/06/2026, 6:42:08 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +8ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:42:17 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:42:17 PM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m6:42:18 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:42:18 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +68ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +99ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +10ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 205785  - [39m08/06/2026, 6:42:20 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:47:49 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:47:50 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +49ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +71ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 216118  - [39m08/06/2026, 6:47:52 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:48:31 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:48:31 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +54ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +74ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 217491  - [39m08/06/2026, 6:48:33 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:48:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:48:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 217705  - [39m08/06/2026, 6:48:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +16ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:51:45 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:51:46 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +62ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 224209  - [39m08/06/2026, 6:51:48 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:52:19 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:52:20 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +71ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +84ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 225344  - [39m08/06/2026, 6:52:22 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:58:20 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth.guard.ts[0m:[93m23[0m:[93m11[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m23[0m       req.user = payload;
+[7m  [0m [91m          ~~~~[0m
+
+[[90m6:58:21 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m6:58:23 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth.guard.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2779: [0mThe left-hand side of an assignment expression may not be an optional property access.
+
+[7m23[0m       req?.user = payload;
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+[96msrc/auth.guard.ts[0m:[93m23[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m23[0m       req?.user = payload;
+[7m  [0m [91m           ~~~~[0m
+
+[[90m6:58:23 PM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m6:58:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:58:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +37ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:38 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +52ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 237158  - [39m08/06/2026, 6:58:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:58:42 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth.guard.ts[0m:[93m23[0m:[93m7[0m - [91merror[0m[90m TS2779: [0mThe left-hand side of an assignment expression may not be an optional property access.
+
+[7m23[0m       req?.user = payload;
+[7m  [0m [91m      ~~~~~~~~~[0m
+
+[[90m6:58:43 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m6:58:46 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:58:47 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +40ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +56ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 237488  - [39m08/06/2026, 6:58:48 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +20ms[39m
+Server running on port 8080
+[2J[3J[H[[90m6:59:09 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/auth.guard.ts[0m:[93m23[0m:[93m11[0m - [91merror[0m[90m TS2339: [0mProperty 'user' does not exist on type 'Request<ParamsDictionary, any, any, ParsedQs, Record<string, any>>'.
+
+[7m23[0m       req.user = payload;
+[7m  [0m [91m          ~~~~[0m
+
+[[90m6:59:09 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m6:59:40 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:59:40 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +50ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 239160  - [39m08/06/2026, 6:59:42 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+Server running on port 8080
+[2J[3J[H[[90m7:00:37 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:00:37 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +51ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +69ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 241080  - [39m08/06/2026, 7:00:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+Server running on port 8080
+[2J[3J[H[[90m7:01:35 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:01:36 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +45ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +97ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 242878  - [39m08/06/2026, 7:01:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m7:03:02 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:03:03 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +43ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +5ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +7ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +13ms[39m
+[32m[Nest] 245629  - [39m08/06/2026, 7:03:04 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m7:03:13 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:03:14 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +48ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+Database connection started
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +61ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +8ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 245959  - [39m08/06/2026, 7:03:15 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+Server running on port 8080
+[2J[3J[H[[90m7:03:17 PM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/utils/jwt.ts[0m:[93m22[0m:[93m1[0m - [91merror[0m[90m TS2304: [0mCannot find name 's'.
+
+[7m22[0m s
+[7m  [0m [91m~[0m
+
+[[90m7:03:17 PM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:03:27 PM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:03:27 PM[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mLoggerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+Database connection started
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDbModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAuthModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAuthController {/auth}:[39m[38;5;3m +48ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/signin, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/login, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/send-otp, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/verify-otp, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth/refresh, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/auth, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 246429  - [39m08/06/2026, 7:03:29 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[

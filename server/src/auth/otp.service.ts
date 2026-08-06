@@ -30,7 +30,7 @@ export class OtpService {
 
   async sendOtp(email: string) {
     const checkIfEmailExists = await this.db.query(
-      'SELECT email FROM users WHERE email = $1',
+      'SELECT email FROM users WHERE email = $1 AND is_deleted = false',
       [email],
     );
     if (!getOne(checkIfEmailExists)) {

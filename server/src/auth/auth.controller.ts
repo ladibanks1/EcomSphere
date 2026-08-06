@@ -9,6 +9,7 @@ import {
   Res,
   UseGuards,
   Req,
+  ForbiddenException,
 } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { loginDto, signInDto } from './dto/auth.dto';
@@ -52,6 +53,7 @@ export class AuthController {
   }
 
   @Post('login')
+  @HttpCode(HttpStatus.OK)
   async login(
     @Body() body: loginDto,
     @Res({ passthrough: true }) res: Response,
@@ -84,13 +86,12 @@ export class AuthController {
 
   // OTP endpoints
   // Send OTP endpoint
-  @HttpCode(HttpStatus.OK)
   @Post('send-otp')
+  @HttpCode(HttpStatus.OK)
   @ApiOperation({
     summary: 'Send OTP to user email',
   })
   @ZodResponse({
-    status: HttpStatus.OK,
     type: SuccessResponseSchema,
   })
   async sendOtp(@Body() body: sendOtpDto) {
@@ -110,13 +111,12 @@ export class AuthController {
   }
 
   // Verify OTP endpoint
-  @HttpCode(HttpStatus.OK)
   @Post('verify-otp')
+  @HttpCode(HttpStatus.OK)
   @ApiOperation({
     summary: 'Verify sent OTP',
   })
   @ZodResponse({
-    status: HttpStatus.OK,
     type: SuccessResponseSchema,
   })
   async verifyOtp(@Body() body: verifyOtpDto) {
@@ -136,6 +136,10 @@ export class AuthController {
   }
 
   @Get('refresh')
+  @UseGuards(AuthGuard)
+  @ZodResponse({
+    type: SuccessResponseSchema,
+  })
   async refreshToken(
     @Req() req: Request,
     @Res({ passthrough: true }) res: Response,
@@ -145,7 +149,7 @@ export class AuthController {
       const refreshToken = cookie['refreshToken'] as string | undefined;
 
       if (!refreshToken) {
-        throw new BadRequestException({
+        throw new ForbiddenException({
           success: false,
           message: 'Session Timeout',
         });
@@ -170,15 +174,15 @@ export class AuthController {
       };
     } catch (e) {
       const err = e as Error;
-      throw new BadRequestException({
+      throw new ForbiddenException({
         success: false,
         message: err?.message,
       });
     }
   }
 
-  @UseGuards(AuthGuard)
   @Get()
+  @UseGuards(AuthGuard)
   dashboard() {
     return 'dashboard';
   }

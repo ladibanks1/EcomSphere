@@ -39,7 +39,7 @@ export class AuthService {
   async login(data: loginDto) {
     try {
       const res = await this.db.query(
-        'SELECT id,email,password,is_verified FROM users WHERE  email = $1',
+        'SELECT id,email,password,is_verified FROM users WHERE  email = $1 AND is_deleted = false',
         [data.email],
       );
       const user = getOne<{
