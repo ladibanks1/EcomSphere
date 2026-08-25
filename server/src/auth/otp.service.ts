@@ -56,7 +56,7 @@ export class OtpService {
 
     this.mailService.sendMail(
       email,
-      'Your EcomSphere OTP Code',
+      'Your Olajummy Store OTP Code',
       `
 <!DOCTYPE html>
 <html lang="en">
@@ -114,17 +114,17 @@ export class OtpService {
 <body>
   <div class="container">
     <div class="header">
-      <h1>EcomSphere OTP</h1>
+      <h1>Olajummy Store OTP</h1>
     </div>
     <div class="content">
       <p>Hello,</p>
-      <p>Use the OTP below to complete your action on EcomSphere. This code is valid for the next 5 minutes.</p>
+      <p>Use the OTP below to complete your action on Olajummy Store. This code is valid for the next 5 minutes.</p>
       <div class="otp-code">${otp}</div>
       <p>If you did not request this code, please ignore this email.</p>
-      <p>Thanks,<br><strong>The EcomSphere Team</strong></p>
+      <p>Thanks,<br><strong>The Olajummy Store Team</strong></p>
     </div>
     <div class="footer">
-      &copy; 2026 EcomSphere. All rights reserved.
+      &copy; 2026 Olajummy Store. All rights reserved.
     </div>
   </div>
 </body>

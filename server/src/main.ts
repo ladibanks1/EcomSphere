@@ -12,8 +12,8 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(
     app,
     new DocumentBuilder()
-      .setTitle('EcomSphere')
-      .setDescription('EcomSphere API Documentation')
+      .setTitle('Olajummy-Store')
+      .setDescription('Olajummy-Store API Documentation')
       .addBearerAuth()
       .setVersion('1.0')
       .build(),

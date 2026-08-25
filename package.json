@@ -1,5 +1,5 @@
 {
-  "name": "ecomsphere",
+  "name": "olajummy-store",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,8 @@
   "scripts": {
     "start:client": "pnpm -F client run dev",
     "start:server": "pnpm -F server run start:dev",
+    "build:client": "pnpm -F client run build",
+    "build:server": "pnpm -F server run build",
     "migrate": "pnpm -F server run migrate"
   },
   "keywords": [],
